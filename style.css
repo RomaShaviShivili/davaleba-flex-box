@@ -1,0 +1,115 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+ }
+header{
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+ header h1{
+    font-size: 36px;
+ }
+  header nav ul{
+    list-style-type: none;
+  }
+   header nav ul li{
+     display: inline;
+     margin: 0 15px;
+   }
+   header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+   }
+   header nav ul li a:hover{
+     text-decoration: underline;
+   }
+   .hero{
+    background: url();
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+   }
+   .hero h2{
+    font-size: 48px;
+    margin-top: 10px;
+   }
+   .hero p{
+    font-size: 20px;
+   }
+    .hero .btn{
+        background-color: #0993ce;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+     .hero .btn:hover{
+        background-color: #09ce5e;
+     }
+     main{
+        padding: 20px;
+        background-color: white;
+     }
+      #guitars{
+        padding: 40px 20px ;
+      }
+    .tour-card{
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 20px auto;
+        width: 80%;
+        display: inline-block;
+    }
+     .tour-card h3{
+        color: #0993ce;
+     }
+      .tour-card .btn{
+        background-color: #0993ce;
+        color: white;
+        padding: 30px;
+        border-radius: 5px;
+      }
+      .tour-card .btn:hover{
+        background-color: #09ce58;
+      }
+      .contact {
+        padding: 40px 20px;
+        background-color: white;
+      }
+     #contact form input,
+     #contact form textarea{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid white;
+     }
+
+      .contact form button{
+        background-color: white;
+        padding: 10px;
+      }
+      footer{
+        background-color:#0993ce ;
+        color: white;
+      }
+      header img{
+        height: 100px;
+        width: 100px;
+      }
+ 
